@@ -1,0 +1,59 @@
+{
+    "name": "Personal",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "upgradePackages": true,
+            "username": "mikelei"
+        },
+        "ghcr.io/devcontainers/features/git:1": {
+            "version": "latest",
+            "ppa": false
+        },
+        "ghcr.io/devcontainers/features/git-lfs:1": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/github-cli:1": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "17",
+            "jdkDistro": "tem",
+            "installGradle": true,
+            "gradleVersion": "latest",
+            "installMaven": true,
+            "mavenVersion": "latest"
+        },
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "latest",
+            "additionalVersions": "lts"
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/rust:1": {
+            "version": "latest",
+            "profile": "default"
+        },
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers-contrib/features/flake8:2": {
+            "version": "latest",
+            "plugins": "flake8-black"
+        },
+        "ghcr.io/devcontainers-contrib/features/isort:2": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers-contrib/features/pdm:2": {
+            "version": "latest"
+        },
+        "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {
+            "fisher": true
+        },
+        "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+    },
+    "remoteUser": "mikelei",
+    "containerUser": "mikelei",
+    "customizations": {}
+}
