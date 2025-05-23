@@ -1,6 +1,6 @@
 {
     "name": "Personal",
-    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "upgradePackages": true,
@@ -36,16 +36,6 @@
             "profile": "default"
         },
         "ghcr.io/devcontainers/features/sshd:1": {
-            "version": "latest"
-        },
-        "ghcr.io/devcontainers-contrib/features/flake8:2": {
-            "version": "latest",
-            "plugins": "flake8-black"
-        },
-        "ghcr.io/devcontainers-contrib/features/isort:2": {
-            "version": "latest"
-        },
-        "ghcr.io/devcontainers-contrib/features/pdm:2": {
             "version": "latest"
         },
         "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {
