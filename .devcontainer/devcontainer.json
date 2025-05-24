@@ -7,10 +7,10 @@
             "upgradePackages": true,
             "username": "mikelei"
         },
-        "ghcr.io/devcontainers/features/git:1": {
-            "version": "latest",
-            "ppa": true
-        },
+        // "ghcr.io/devcontainers/features/git:1": {
+        //     "version": "latest",
+        //     "ppa": true
+        // },
         "ghcr.io/devcontainers/features/git-lfs:1": {},
         "ghcr.io/devcontainers/features/github-cli:1": {},
         "ghcr.io/devcontainers/features/java:1": {
