@@ -1,6 +1,6 @@
 {
     "name": "Personal",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+    "image": "ubuntu:rolling",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": false,
